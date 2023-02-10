@@ -11,6 +11,7 @@
         android:layout_height="wrap_content"
         android:hint="제목"/>
     <EditText
+        android:id="@+id/context"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
@@ -23,6 +24,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="OnClickHandler"
             android:layout_margin="5dp"
             android:text="SAVE"/>
         <Button
@@ -32,12 +34,6 @@
             android:layout_margin="5dp"
             android:layout_weight="1"
             android:text="CANCEL"/>
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/btnDialog"
-            android:onClick="mOnClick"
-            android:text="ㅅ댇ㅅㅁ";
 
 
     </LinearLayout>
